@@ -1,0 +1,41 @@
+{
+  "name": "civilspeak-frontend",
+  "version": "1.0.0",
+  "description": "A webapp to guide users to speak calmly and educatedly about political matters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "c test",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjberryhill/civilspeak-frontend.git"
+  },
+  "author": "AlexBerryhill MatthewBerryhill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjberryhill/civilspeak-frontend/issues"
+  },
+  "homepage": "./src/index.js",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
