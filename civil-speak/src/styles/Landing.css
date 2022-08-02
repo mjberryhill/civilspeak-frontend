@@ -1,0 +1,70 @@
+body{
+    background-color: #84907F;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .main_content{
+    width: 70vw;
+    margin:auto;
+} */
+
+h1, .promise, .discover, .sign{
+    margin:20px  auto;
+    text-align: center;
+}
+
+h1{
+    width: 62vw;
+}
+
+.promise{
+    width: 74vw;
+}
+
+.discover{
+    width: 48vw;
+}
+
+.sign{
+    width: fit-content;
+}
+
+button{
+    border: none;
+    width: 20vw;
+    height: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.begin{
+    
+    background-color: #475A3F;
+    color: white;
+    margin: 20px 40vw;
+}
+
+.lang_select{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+}
+
+.lang{
+    margin: auto;
+}
+
+.modal{
+    width: 80vw;
+    height: 80vh;
+    position: fixed;
+    top:0; left:0; right:0; bottom:0; 
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0,0,0,.5);
+    background-color: white;
+    border-radius: 5px;
+    padding: 0;
+}

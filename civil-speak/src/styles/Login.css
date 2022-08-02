@@ -1,0 +1,84 @@
+.login_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Header */
+header{
+    top: 0;
+    height: 60px;
+    background-image: url('../assets/green-hexagon.jpg');
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 145px 1fr 145px;
+}
+
+.log{
+    margin: auto;
+    font-size: large;
+}
+
+/* Both */
+.oauth, .form{
+    margin: 20px 0 0 0;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    height: 150%;
+}
+
+#login_or{
+    position:absolute;
+    top: 50%;
+    left: 49%;
+    background-color: #fff;
+    color: gray;
+}
+/* Oath */
+.oauth{
+    border-right: 1px solid gray;
+}
+
+.oauth button{
+    margin: auto;
+}
+
+/* Form */
+.form{
+    border-left: 1px solid gray;
+    width: 80%;
+}
+
+#email, #password, input[type='checkbox'], #submit{
+    margin: 10px 0px;
+}
+
+#email, #password{
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 0.546875em 0.5em 0.625em 0.5em;
+    box-shadow: 0 0 0 #fff, inset 0 0.1em 0.2em #ddd;
+    transition: border-color 250ms,box-shadow 250ms;
+    width: 94%;
+}
+
+label{
+    color: black;
+    font-size: small;
+    margin: 0px 5px;
+}
+
+#submit{
+    background-color: #83a168;
+    opacity: 80%;
+    width: 100%;
+}
+
+#submit:hover{
+    opacity: 100%;
+}
+
+a{
+    text-decoration: none;
+}
