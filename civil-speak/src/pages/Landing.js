@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import Login from '../components/Login'
+// import Login from '../components/Login';
+import Register from '../components/Register'
+
 
 import '../styles/Landing.css';
 
@@ -43,7 +45,7 @@ function Landing() {
 
       </div>
       {visible && <div className='modal'>
-        <Login />
+        <Register />
         {/* <p className="modal_close" onClick={() => setVisible(false)}>x</p> */}
       </div>}
     </div>

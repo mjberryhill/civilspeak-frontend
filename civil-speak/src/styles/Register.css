@@ -1,13 +1,20 @@
-.login_container{
+.register_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: black;
+    overflow-y:scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.register_container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
 }
 
 /* Header */
 header{
     top: 0;
     height: 60px;
-    background-image: url('../assets/green-hexagon.jpg');
     grid-column: span 2;
     display: grid;
     grid-template-columns: 145px 1fr 145px;
@@ -24,7 +31,7 @@ header{
     padding: 20px;
     margin: 20px 0 0 0;
     padding: 20px;
-    height: 150%;
+    height: 75%;
 }
 
 #login_or{
@@ -49,11 +56,11 @@ header{
     width: 80%;
 }
 
-#email, #password, input[type='checkbox'], #submit{
+input[type='text'], input[type='password'], input[type='checkbox'], #submit{
     margin: 10px 0px;
 }
 
-#email, #password{
+input[type='text'], input[type='password'], input[type='email']{
     background-color: white;
     border: 1px solid #e5e5e5;
     border-radius: 4px;

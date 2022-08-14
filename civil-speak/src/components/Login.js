@@ -19,7 +19,7 @@ function Login(){
                 <input type='checkbox' id='remember' name='remember'></input>
                 <label for='remember'>Remember Me</label>
                 <button id='submit'>Log in</button>
-                <a href='#'>Forgot your password?</a>
+                {/* <a href='#'>Forgot your password?</a> */}
             </div>
             <p id='login_or'>or</p>
         </div>
